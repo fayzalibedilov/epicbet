@@ -197,7 +197,7 @@ class AllSportsCategories {
         this.allSportsDialog = this.page.locator("div[data-testid='all-sports-container']")
         this.closeIcon = this.page.locator("button[data-testid='close-modal']")
         this.sporstsList = this.page.locator("//*[@data-testid='all-sports-container']//div[@class='z4xga81']")
-        this.sporstsSlider = this.page.locator("//*[@class='soazps4 soazps6']")
+        this.sporstsSlider = this.page.locator("div[class='soazps0 z4xga8e']")
     }
     async assertAllSportsDialogElements() {
         await expect(this.allSportsDialog).toBeVisible()
