@@ -2,9 +2,6 @@ const { test, expect } = require('@playwright/test');
 const { LoginPopup } = require('../page_objects/LoginPopup')
 const { MainPage } = require("../page_objects/MainPage");
 const { Promotions } = require("../page_objects/Promotions");
-const {machine} = require("node:os");
-const {log} = require("node:util");
-const {stringify} = require("node:querystring");
 const assert = require("node:assert");
 
 
