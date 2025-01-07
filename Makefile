@@ -4,3 +4,7 @@ run-chromium:
 
 run-headless:
 	npx playwright test --project chromium
+
+
+allure-reports:
+	allure serve allur-results
